@@ -1,6 +1,6 @@
 # Graph-Embeddings-for-Functional-Brain-Connectivity-Networks
 This script generates graph embeddings for brain connectivity networks.
-Data not included as it is protected.
+Data is not included as it is protected (IRB).
 
 Script takes as input symmetrical adjacency matrices. They must be undirected. Weigthed is okay.
 
