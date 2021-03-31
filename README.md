@@ -15,5 +15,5 @@ One thing I'm not positive about yet is whether whole-graph embeddings are compa
 Becuase my graphs correspond to different subjects and fmri conditions, those aspects of the code will not be applicable to others. 
 
 References
-https://link.springer.com/chapter/10.1007/978-3-030-36718-3_1
+https://link.springer.com/chapter/10.1007/978-3-030-36718-3_1\n
 https://karateclub.readthedocs.io/en/latest/index.html
