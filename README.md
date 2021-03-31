@@ -12,6 +12,10 @@ Script exports all embeddings to a csv, formatted for ease of use in ML projects
 
 One thing I'm not positive about yet is whether whole-graph embeddings are comparable on an element-wise level. Ie, can each column of an embedding matrix be used as a feature vector, becaue they describe some analagous underlying component across graphs? I'm assuming this is the case, but should confirm.
 
+Consdering graph embedding is used to transform  graphs into vector space while preserving information about graph strucutre/topology, I believe hat since all my graphs have the same nodes, that the element-wise aspects of the embeddings should be comaparable and usable in feature vectors. 
+
+
+
 Becuase my graphs correspond to different subjects and fmri conditions, those aspects of the code will not be applicable to others. 
 
 References
