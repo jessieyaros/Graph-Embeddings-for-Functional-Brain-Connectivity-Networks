@@ -14,7 +14,8 @@ One thing I'm not positive about yet is whether whole-graph embeddings are compa
 
 Consdering graph embedding is used to transform  graphs into vector space while preserving information about graph strucutre/topology, I believe hat since all my graphs have the same nodes, that the element-wise aspects of the embeddings should be comaparable and usable in feature vectors. 
 
-
+Questions to explore with this data:
+One thing I would like to see is if embeddings tend to cluster by experimental condition -- ie is there any underlying structure across subjects that are captured. It is very possible however that there is more inherent structure across subjects than conditions, and that embeddings will be clustered primarily by identity. If so, this would eveidece of functional brain fingerprint. If we ignore identity do we see condition clustering? Furthermore can we use embeddings to predict subject performance, or self-reports of experience in questionnaires. Could distance betweent embeddings map onto differences in perofrmance? Etc etc. 
 
 Becuase my graphs correspond to different subjects and fmri conditions, those aspects of the code will not be applicable to others. 
 
