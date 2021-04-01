@@ -6,7 +6,7 @@ Both generate_graph_embeddings.py and  generate_graph_embeddings_reduced_memory_
 
 The adjacency matrices are converted into NetworkX graphs, and graph embeddings are created using the GL2vec technique implemented in the karateclub library.
 
-generate_graph_embeddings_reduced_memory_usage.py breaks up the generation of embeddings into 16 parts, in order to reduce overtaxing memory. Once each batch of embeddigns are gerated they are stored in a dataframe.
+generate_graph_embeddings_reduced_memory_usage.py breaks up the generation of embeddings into 16 parts, in order to reduce overtaxing memory. Once each batch of embeddings are generated they are stored in a dataframe.
 
 Script exports all embeddings to a csv, formatted for ease of use in ML projects. Ie each embedding is a vector of length 128. Each element of the vector is assigned to its own cell.
 
